@@ -6047,10 +6047,7 @@ packages:
   name: nsight-profiling
   version: 0.1.0
   path: .
-  sha256: cd1f2ffc22dd56d7cb7106a34d824ff3abbf852c6491dcb6c9d867975a349ec3
-  requires_dist:
-  - genjax==0.7.0 ; extra == 'genjax-cpu'
-  - jax==0.4.33 ; extra == 'genjax-cpu'
+  sha256: dd40e0845a53a2464f99e58cda1c2f1ea0d6ff702e59443ee0e38dd530c2e02d
   requires_python: '>=3.12'
   editable: true
 - kind: conda
