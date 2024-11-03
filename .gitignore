@@ -1,4 +1,5 @@
 
 # pixi environments
 .pixi/envs
+.pixi/solve-group-envs
 *.egg-info
