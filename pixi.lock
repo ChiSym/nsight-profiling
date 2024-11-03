@@ -6047,7 +6047,7 @@ packages:
   name: nsight-profiling
   version: 0.1.0
   path: .
-  sha256: f6af4c266925099586518f27703a75aa86a3d64956ac01f8ebf4bee2152bf503
+  sha256: cd1f2ffc22dd56d7cb7106a34d824ff3abbf852c6491dcb6c9d867975a349ec3
   requires_dist:
   - genjax==0.7.0 ; extra == 'genjax-cpu'
   - jax==0.4.33 ; extra == 'genjax-cpu'
