@@ -29,10 +29,10 @@ matplotlib = "*"
 # GenJax GPU packages (linux-64 only).
 
 [tool.pixi.feature.genjax-gpu]
-platforms = ["linux-64"]
+platforms = ["linux-64", "osx-arm64"]
 system-requirements = { cuda = "12" }
 
-[tool.pixi.feature.genjax-gpu.dependencies]
+[tool.pixi.feature.genjax-gpu.target.linux-64.dependencies]
 cuda-toolkit = ">=12.6.2,<13"
 
 # -----------------------------------------------------------------------------

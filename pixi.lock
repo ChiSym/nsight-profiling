@@ -5096,7 +5096,7 @@ packages:
   name: nsight-profiling
   version: 0.1.0
   path: .
-  sha256: 604aa0aa030260fd2c2ea66a2b98d65d4baa09c1ce13e30f5bbe22bc24f5f7b5
+  sha256: 37f09f6547dfcc9e4bfbc2f4b92ce5b96d2d61154c536cf95a9417529c966617
   requires_dist:
   - ipykernel ; extra == 'nsight-jupyter'
   - pip>=24.3.1,<25 ; extra == 'nsight-jupyter'
