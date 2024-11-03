@@ -3,3 +3,6 @@
 .pixi/envs
 .pixi/solve-group-envs
 *.egg-info
+
+# profile reports
+*nsys-rep
