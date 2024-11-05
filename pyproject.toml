@@ -16,6 +16,14 @@ genjax-cpu = { features = [ "genjax-cpu", "genjax-common" ], solve-group = "defa
 [tool.pixi.feature.genjax-common.dependencies]
 numpy = "<2.0.0"
 matplotlib = "*"
+ipykernel = "*"
+
+[tool.pixi.feature.genjax-common.pypi-dependencies]
+tensorboard = "*"
+tensorflow = "*"
+tensorboard-plugin-profile = "*"
+protobuf = "*"
+graphviz = "*"
 
 # -----------------------------------------------------------------------------
 # GenJax GPU packages (linux-64 only).
